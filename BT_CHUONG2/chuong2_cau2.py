@@ -1,3 +1,4 @@
+
 #Trả lời câu hỏi số 2 chương 2
 t=int(input("Nhap so giay:"))
 hour=(t//3600)%24
