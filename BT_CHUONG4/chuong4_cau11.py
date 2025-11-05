@@ -1,4 +1,18 @@
 #giải bài tập chương 4 câu 11
+"""
+trường hợp 1:
+5
+5
+0
+trường hợp 2:
+5
+5
+5
+trường hợp 3:
+5
+5
+0
+"""
 def sum1(n):
     s=0
     while n>0:
@@ -18,4 +32,31 @@ def sum3():
     s=0
     for i in range(val, 0, -1):
      s+=1
-    return s    
+    return s
+"""
+def main():
+    global val
+    val = 5
+    print(sum1(5))
+    print(sum2())
+    print(sum3())
+main()
+"""
+"""
+def main():
+    global val
+    val = 5
+    print(sum1(5))
+    print(sum3())
+    print(sum2())
+main()
+"""
+"""
+def main():
+    global val
+    val = 5
+    print(sum2())
+    print(sum1(5))
+    print(sum3())
+main()
+"""
